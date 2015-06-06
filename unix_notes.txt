@@ -112,7 +112,10 @@ echo $SHELL
 echo
 which fish
 which
+
+#This sounds like the start of a very strange recipe
 brew info fish
+
 fish_update_completions
 curl -fsSL http://git.io/beJs | ruby
 ls "My Directory"
